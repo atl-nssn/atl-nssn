@@ -341,3 +341,7 @@ a.pure-button-primary {
   opacity: 0.04;
   /* border-radius:1vw; */
 }
+
+.pure-menu-link {
+  cursor:default;
+}
