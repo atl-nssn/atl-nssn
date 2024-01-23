@@ -223,11 +223,17 @@ a.pure-button-primary {
   .l-box-lrg {
     border: none;
   }
+  .footer_bottom{
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 78em) {
   .splash-head {
     font-size: 300%;
+  }
+  .footer_bottom{
+    flex-direction: column;
   }
 }
 
