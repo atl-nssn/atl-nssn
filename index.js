@@ -1,6 +1,7 @@
 let slideIndex = 0;
 showSlides();
 
+// Image Carousel
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -17,7 +18,8 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
-  setTimeout(showSlides, 5000);
+
+  setTimeout(showSlides, 3000);
 }
 
 // Navigation Button Functions
@@ -48,6 +50,6 @@ const timeline_view = () => {
 
 // Contact Us
 const contact_us_view = () => {
-  var contact_us_view = document.getElementById("contact_us_view")
+  var contact_us_view = document.getElementById("contact_div")
   contact_us_view.scrollIntoView();
 }

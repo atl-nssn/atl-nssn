@@ -194,13 +194,6 @@ a.pure-button-primary {
   color: #aaa;
 }
 
-.footer {
-  background: #111;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 @media (min-width: 48em) {
   body {
     font-size: 16px;
@@ -223,35 +216,17 @@ a.pure-button-primary {
   .l-box-lrg {
     border: none;
   }
-  .footer_bottom{
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 78em) {
   .splash-head {
     font-size: 300%;
   }
-  .footer_bottom{
-    flex-direction: column;
-  }
+
 }
 
 #logo_header {
   width: 22vw;
-}
-
-.splashvecatry {
-  animation: rotate_rocket infinite 5s linear;
-}
-
-@keyframes rotate_rocket {
-  form {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 * {
